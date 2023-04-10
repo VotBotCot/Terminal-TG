@@ -6,8 +6,8 @@ Version 0.1.5
 from telethon import TelegramClient, events
 from datetime import datetime
 
-api_id = ''
-api_hash = ''
+api_id = input("api_id: ")
+api_hash = input("api_hash: ")
 
 client = TelegramClient('terminal_telegram', api_id, api_hash)
 
