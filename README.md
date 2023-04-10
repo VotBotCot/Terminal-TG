@@ -9,28 +9,28 @@ You must have Python 3 and Git installed to run the project.
 
 1. Clone the repository:
 
-bash
+```bash
 git clone https://github.com/VotBotCot/Terminal-TG.git
-
+```
 2. Navigate to the project folder:
 
-bash
+```bash
 cd Terminal-TG
-
+```
 
 3. Install the required libraries:
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 4. Create [Telegram Application](https://my.telegram.org/apps) and get api_id and api_hash.
 
 5. Run the main.py file and enter your phone number and the code you received to log in to Telegram:
 
-bash
+```bash
 python main.py
-
+```
 
 ## Usage
 
@@ -54,28 +54,28 @@ RUS
 
 1. Клонируйте репозиторий:
 
-bash
+```bash
 git clone https://github.com/VotBotCot/Terminal-TG.git
-
+```
 2. Перейдите в папку проекта:
 
-bash
+```bash
 cd Terminal-TG
-
+```
 
 3. Установите необходимые библиотеки:
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 4. Создайте [Telegram-приложение](https://my.telegram.org/apps) и получите api_id и api_hash.
 
 5. Запустите файл main.py и введите свой номер телефона и код, который вы получили для входа в Telegram:
 
-bash
+```bash
 python main.py
-
+```
 
 ## Использование
 
