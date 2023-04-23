@@ -1,13 +1,23 @@
 """
-Terminal TG 
+Terminal TG
 Version 0.1.7
 """
 
 from telethon import TelegramClient, events
 from datetime import datetime
 
-api_id = ''#api_id
-api_hash = ''#api_hash
+try:
+    with open('config', 'r') as f:
+        lines = f.readlines()
+        if len(lines) >= 2:
+            api_id = lines[0].strip()
+            api_hash = lines[1].strip()
+        else:
+            print("config does not have enough lines.")
+            sys. exit()
+except FileNotFoundError:
+    print("config not found.")
+    sys. exit()
 
 client = TelegramClient('terminal_telegram', api_id, api_hash)
 
