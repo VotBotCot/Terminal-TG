@@ -1,7 +1,8 @@
-ENG
-# Telegram in Terminal
+##ENG
 
-This project allows you to use Telegram in the terminal without opening it in a browser or on a device. It is convenient for those who often work via the terminal and do not want to switch to other applications. 
+# Telegram in the Terminal
+
+This project allows you to use Telegram on the client terminal without having to open it in your browser or on your device. It is convenient for those who often work via the terminal and do not want to switch to other applications. 
 
 ## Installation
 
@@ -18,23 +19,29 @@ git clone https://github.com/VotBotCot/Terminal-TG.git
 cd Terminal-TG
 ```
 
-3. Install the required libraries:
+3. Install the necessary libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Create [Telegram Application](https://my.telegram.org/apps) and get api_id and api_hash.
+4. Create [Telegram application](https://my.telegram.org/apps) and get api_id and api_hash.
 
-5. Run the main.py file and enter your phone number and the code you received to log in to Telegram:
+5. Run setup.py file and enter your api_id and api_hash:
+
+```bash
+python setup.py
+```
+
+6. Run the main.py file and enter your phone number and the code you received to sign in to Telegram:
 
 ```bash
 python main.py
 ```
 
-## Usage
+## Use
 
-Once you have successfully logged in to Telegram, you can use it.
+Once you have successfully logged into Telegram, you can use it.
 
 - all commands will be written at startup
 
@@ -42,7 +49,8 @@ Once you have successfully logged in to Telegram, you can use it.
 
 This project is distributed under the GPL3 license, which means you may use, modify and distribute it as you see fit, but with some restrictions. See the LICENSE file for more information.
 
-RUS
+
+##RUS
 
 # Telegram в терминале
 
@@ -71,7 +79,13 @@ pip install -r requirements.txt
 
 4. Создайте [Telegram-приложение](https://my.telegram.org/apps) и получите api_id и api_hash.
 
-5. Запустите файл main.py и введите свой номер телефона и код, который вы получили для входа в Telegram:
+5. Запустите файл setup.py и введите свой api_id и api_hash:
+
+```bash
+python setup.py
+```
+
+6. Запустите файл main.py и введите свой номер телефона и код, который вы получили для входа в Telegram:
 
 ```bash
 python main.py
