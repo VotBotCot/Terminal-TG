@@ -1,4 +1,4 @@
-##ENG
+ENG
 
 # Telegram in the Terminal
 
@@ -50,7 +50,7 @@ Once you have successfully logged into Telegram, you can use it.
 This project is distributed under the GPL3 license, which means you may use, modify and distribute it as you see fit, but with some restrictions. See the LICENSE file for more information.
 
 
-##RUS
+RUS
 
 # Telegram в терминале
 
