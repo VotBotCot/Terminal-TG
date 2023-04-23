@@ -19,21 +19,15 @@ git clone https://github.com/VotBotCot/Terminal-TG.git
 cd Terminal-TG
 ```
 
-3. Install the necessary libraries:
+3. Create [Telegram application](https://my.telegram.org/apps) and get api_id and api_hash.
 
-```bash
-pip install -r requirements.txt
-```
-
-4. Create [Telegram application](https://my.telegram.org/apps) and get api_id and api_hash.
-
-5. Run setup.py file and enter your api_id and api_hash:
+4. Run setup.py file and enter your api_id and api_hash:
 
 ```bash
 python setup.py
 ```
 
-6. Run the main.py file and enter your phone number and the code you received to sign in to Telegram:
+5. Run the main.py file and enter your phone number and the code you received to sign in to Telegram:
 
 ```bash
 python main.py
@@ -71,21 +65,15 @@ git clone https://github.com/VotBotCot/Terminal-TG.git
 cd Terminal-TG
 ```
 
-3. Установите необходимые библиотеки:
+3. Создайте [Telegram-приложение](https://my.telegram.org/apps) и получите api_id и api_hash.
 
-```bash
-pip install -r requirements.txt
-```
-
-4. Создайте [Telegram-приложение](https://my.telegram.org/apps) и получите api_id и api_hash.
-
-5. Запустите файл setup.py и введите свой api_id и api_hash:
+4. Запустите файл setup.py и введите свой api_id и api_hash:
 
 ```bash
 python setup.py
 ```
 
-6. Запустите файл main.py и введите свой номер телефона и код, который вы получили для входа в Telegram:
+5. Запустите файл main.py и введите свой номер телефона и код, который вы получили для входа в Telegram:
 
 ```bash
 python main.py
