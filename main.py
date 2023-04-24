@@ -80,7 +80,7 @@ async def main():
                          print("found(username): " + dialog.entity.username)
             elif user_input.startswith('send'):
                 user_to_send = user_input.split(' ')[1]
-                message_to_send = ' '.join(user_input.split(' ')[1:])
+                message_to_send = ' '.join(user_input.split(' ')[2:])
                 date = datetime.now().strftime("%d/%m/%Y %H:%M:%S") # получаем дату и время
                 print(f"To: {user_to_send} | Message: {message_to_send} | Date: {date}")
                 await client.send_message(user_to_send, message_to_send)
